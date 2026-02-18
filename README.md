@@ -11,6 +11,9 @@ The dashboard uncovers **revenue drivers, profitability patterns, and regional p
 
 ![Dashboard Preview](<img width="557" height="316" alt="image (20)" src="https://github.com/user-attachments/assets/8e107500-acf6-43d8-9593-636c7ad281eb" />
 )
+![Dashboard Preview](<img width="571" height="319" alt="image (19)" src="https://github.com/user-attachments/assets/eafc44a7-8d59-4cba-874a-48300707c48e" />
+)
+
 ## 📑 Table of Contents
 
 1. [Project Overview](#project-overview)
