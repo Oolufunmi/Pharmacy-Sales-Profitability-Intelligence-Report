@@ -110,8 +110,7 @@ Key DAX measures created for this analysis include:
 - **Month-over-Month Change**
 - **Revenue Contribution by Category**
 Some of the main DAX measures used in this report:
-
-```DAX
+## DAX
 Total Revenue = SUM(Sales[Revenue])
 Revenue Last Month = CALCULATE([Total Revenue], PREVIOUSMONTH(Sales[Date]))
 MoM Difference = [Total Revenue] - [Revenue Last Month]
