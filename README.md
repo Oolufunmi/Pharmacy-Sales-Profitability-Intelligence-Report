@@ -1,56 +1,114 @@
-# Pharmacy-Sales-Profitability-Intelligence-Report
-This repository contains a **Power BI report** analyzing daily sales data from a European pharmacy chain.   The goal was to uncover revenue, margin, and geographic performance trends, providing actionable insights for strategic decision-making in pharmaceutical retail.
+# 💊 Pharmacy Sales & Profitability Analytics  
+**DataDNA – Onyx Data Challenge (Jan–Feb 2026)**  
 
-# Pharmacy Sales & Profitability Analytics
-
-**January–February 2026 | DataDNA – Onyx Data Challenge**  
-
-This repository contains a **Power BI report** analyzing daily sales data from a European pharmacy chain.  
-The goal was to uncover revenue, margin, and geographic performance trends, providing actionable insights for strategic decision-making in pharmaceutical retail.
+An end-to-end business intelligence project analyzing pharmacy retail performance across multiple European countries.  
+The dashboard uncovers **revenue drivers, profitability patterns, and regional performance insights** to support strategic decision-making.
 
 ---
 
-## 🏆 Objective
+## 📑 Table of Contents
 
-- Analyze revenue, profit, and margin trends across multiple countries, regions, and pharmacies  
-- Understand which product categories and brands drive results  
-- Identify high-performing and underperforming outlets for operational optimization  
-- Support leadership with a clear, interactive dashboard for strategic decisions
+1. [Project Overview](#project-overview)
+2. [Objective](#objective)
+3. [Dashboard Overview](#dashboard-overview)
+4. [Repository Structure](#repository-structure)
+5. [Data Description](#data-description)
+6. [Key Insights](#key-insights)
+7. [Key Measures & Calculations](#key-measures--calculations)
+8. [How to Use](#how-to-use)
+9. [Tools & Technologies](#tools--technologies)
+10. [Business Value](#business-value)
+11. [License](#license)
 
 ---
 
-## 📁 Repository Contents
+## 📊 Project Overview
+
+This project analyzes daily sales data from a European pharmacy chain to evaluate **sales performance, profit margins, and geographic trends**.
+
+The Power BI report was designed to mirror how executives consume information —  
+clear KPIs, quick comparisons, and the ability to drill into performance drivers.
+
+It answers key questions such as:
+
+- How is the business performing overall?
+- Which regions and stores drive revenue and profitability?
+- What product categories contribute most to margin?
+
 ---
 
-## 📊 Dashboard Overview
+## 🎯 Objective
 
-The report is a **3-page Power BI dashboard** that includes:
+The objective of this project was to build an interactive analytics report that:
 
-1. **Overview Page**  
-   - High-level revenue and profit comparison  
-   - Key KPIs for quick decision-making
+- Compares **revenue and profit across countries and regions**
+- Identifies **top-performing stores and product categories**
+- Tracks **performance trends over time**
+- Provides decision-makers with a clear view of business performance
 
-2. **Regional Performance Page**  
-   - Country and store-level analysis  
-   - Comparison of revenue, margin, and trend performance  
+---
 
-3. **Product Insights Page**  
-   - Top-performing products, categories, and brands  
-   - Contribution to revenue and profitability
-   - 
+## 🖥️ Dashboard Overview
+
+The Power BI report contains **three interactive pages**:
+
+### 1️⃣ Executive Overview
+- Revenue, Profit, and Margin KPIs
+- Country performance comparison
+- Monthly trend analysis
+
+### 2️⃣ Regional & Store Performance
+- Revenue and profit by region
+- Store-level performance comparison
+- Analysis by store size, age, and location
+
+### 3️⃣ Product & Category Insights
+- Revenue contribution by category
+- Top-performing products and brands
+- Profitability analysis by product
+
+---
+
+## 📁 Repository Structure
+
+
+---
+
+## 🧾 Data Description
+
+The dataset consists of transactional sales records including:
+
+- Transaction date
+- Country and region
+- Pharmacy/store details
+- Product category and brand
+- Revenue and profit values
+
+The data model follows a **star schema structure** with fact and dimension tables for efficient analysis.
+
 ---
 
 ## 🔍 Key Insights
 
-- Germany leads in both revenue and profitability, followed by France, Italy, and Belgium  
+- Germany leads in both revenue and profitability, followed by France, Italy, and Belgium
+- Higher revenue is associated with **urban locations, older stores, and mid-sized outlets**
+- Prescription, OTC, and Wellness categories drive the majority of total revenue
 - Older stores, urban locations, and mid-sized outlets consistently perform better  
-- Prescription, OTC, and Wellness categories drive the largest share of total revenue  
-- Top revenue-generating product: **NeuroMed Corticosteroid Cream 200mg (Germany)**  
+- Top revenue-generating product:
+  **NeuroMed Corticosteroid Cream 200 mg (Germany)**
 
 ---
 
 ## 🧮 Key Measures & Calculations
 
+Key DAX measures created for this analysis include:
+
+- **Total Revenue**
+- **Total Profit**
+- **Profit Margin %**
+- **Year-over-Year Growth**
+- **Month-over-Month Change**
+- **Revenue Contribution by Category**
 Some of the main DAX measures used in this report:
 
 ```DAX
@@ -58,5 +116,43 @@ Total Revenue = SUM(Sales[Revenue])
 Revenue Last Month = CALCULATE([Total Revenue], PREVIOUSMONTH(Sales[Date]))
 MoM Difference = [Total Revenue] - [Revenue Last Month]
 Revenue Margin = DIVIDE([Profit], [Revenue])
+These measures enable dynamic filtering and performance tracking across all report pages.
+
+---
+
+## ▶️ How to Use
+
+1. Download the `.pbix` file from the **dashboard** folder
+2. Open using **Power BI Desktop**
+3. Use slicers and filters to explore the data
+4. Hover over visuals to view detailed tooltips
+
+---
+
+## 🛠️ Tools & Technologies
+
+- **Power BI** → Data modeling & visualization  
+- **DAX** → Business calculations  
+- **Excel / CSV** → Data source  
+- **GitHub** → Documentation and version control  
+
+---
+
+## 💼 Business Value
+
+This dashboard demonstrates how analytics can support pharmaceutical retail leaders by:
+
+- Identifying high-performing markets
+- Optimizing product mix
+- Monitoring profitability trends
+- Supporting data-driven expansion strategies
+
+The report is designed to replicate real-world executive reporting workflows.
+
+---
+
+## 📄 License
+
+This project is for **educational and portfolio purposes only** as part of the DataDNA Onyx Data Challenge.
 
 
