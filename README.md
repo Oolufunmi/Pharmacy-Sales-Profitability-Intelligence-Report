@@ -5,6 +5,9 @@ An end-to-end business intelligence project analyzing pharmacy retail performanc
 The dashboard uncovers **revenue drivers, profitability patterns, and regional performance insights** to support strategic decision-making.
 
 ---
+## 📸 Dashboard Preview
+
+![Dashboard Preview](<img width="565" height="317" alt="image (16)" src="https://github.com/user-attachments/assets/9944a932-e74e-4a45-80dd-f9338d706a8c" />)
 
 ## 📑 Table of Contents
 
