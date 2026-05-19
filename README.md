@@ -6,10 +6,12 @@ The dashboard uncovers **revenue drivers, profitability patterns, and regional p
 
 ---
 ## 📸 Dashboard Preview
+<img width="589" height="332" alt="11" src="https://github.com/user-attachments/assets/ab6c98f8-760f-49b6-b92f-e88d94ebccbf" />
 
-<img width="565" height="317" alt="image (16)" src="https://github.com/user-attachments/assets/9944a932-e74e-4a45-80dd-f9338d706a8c" />
-<img width="557" height="316" alt="image (20)" src="https://github.com/user-attachments/assets/8e107500-acf6-43d8-9593-636c7ad281eb" />
-<img width="571" height="319" alt="image (19)" src="https://github.com/user-attachments/assets/eafc44a7-8d59-4cba-874a-48300707c48e" />
+<img width="587" height="326" alt="22" src="https://github.com/user-attachments/assets/a5c1f7ac-0e2e-46a7-8bb9-5e163e248d80" />
+
+<img width="592" height="331" alt="33" src="https://github.com/user-attachments/assets/0fed71c6-f948-40a8-93bb-5c4dd6ed62fb" />
+
 
 ## 📑 Table of Contents
 
